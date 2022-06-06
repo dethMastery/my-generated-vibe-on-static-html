@@ -109,6 +109,7 @@ text.style.justifyContent = 'center'
 text.style.textAlign = 'center'
 text.style.flexDirection = 'column'
 text.style.fontFamily = "'IBM Plex Sans Thai', sans-serif"
+text.style.fontWeight = '200'
 text.style.color = 'whitesmoke'
 
 let sHeader = document.createElement('h1')
@@ -135,6 +136,9 @@ footer.innerHTML = `&copy ${copyYear.innerHTML} <a href="${copyLink.innerHTML}" 
   footer.style.textAlign = 'center'
   footer.style.backgroundColor = 'whitesmoke'
   footer.style.color = '#2e2f2f'
+  footer.style.fontFamily = "'IBM Plex Sans Thai', sans-serif"
+  footer.style.fontWeight = '200'
+
 
   let footerLink = document.querySelector('a#idCopyLink')
   
