@@ -5,8 +5,15 @@ just call this script and axios in your html page and create a div element with 
 <br />
 ```html
 <div id="main"></div>
+
+<span id="classSubTitle"> {Your little description} </span>
+
+<span id="classCopyYear"> {Year} </span>
+<span id="classCopyName"> {Your name} </span>
+<span id="classCopyLink"> {Trust me~ This is your homepage link} </span>
+
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="{script}"></script>
+<script src="https://cdn.jsdelivr.net/gh/dethMastery/my-generated-vibe-on-static-html@main/dethz.js"></script>
 ```
 <br />
 
