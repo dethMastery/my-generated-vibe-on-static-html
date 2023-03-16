@@ -72,21 +72,28 @@ main.appendChild(footer)
 bg.style.width = '100%'
 bg.style.height = '100vh'
 
-function bgCall() {
-  let axx = axios.get('https://frame.kitzu.me/rdm')
+// function bgCall() {
+//   let axx = axios.get('https://frame.kitzu.me/rdm')
 
-  let axCall = axx.then((rsp) => rsp.data) 
+//   let axCall = axx.then((rsp) => rsp.data) 
 
-  return axCall
-}
+//   return axCall
+// }
 
-bgCall().then(data=> {
-  bg.style.backgroundImage = `url(${data.url})`
+// bgCall().then(data=> {
+//   bg.style.backgroundImage = `url(${data.url})`
+//   bg.style.backgroundImage = url('https://picsum.photos/1920/1080')
+//   bg.style.backgroundPosition = 'center'
+//   bg.style.backgroundRepeat = 'no-repeat'
+//   bg.style.backgroundSize = 'cover'
+//   bg.style.filter = 'blur(.3rem)'
+// })
+
+  bg.style.backgroundImage = `url('https://picsum.photos/1920/1080')`
   bg.style.backgroundPosition = 'center'
   bg.style.backgroundRepeat = 'no-repeat'
   bg.style.backgroundSize = 'cover'
   bg.style.filter = 'blur(.3rem)'
-})
 
 // ==================================================
 
